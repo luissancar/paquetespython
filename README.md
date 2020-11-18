@@ -36,7 +36,7 @@ print(sumar(4,5))
 ```
 En este caso no es necesario utilizar el nombre del módulo delante del nombre de la función, en el caso de querer utilizar todas las funciones, podemos utilizar.
 ```
-from operaciones import \*
+from operaciones import *
 
 print(restar(4,5))
 print(sumar(4,5))
