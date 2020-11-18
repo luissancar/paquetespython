@@ -50,20 +50,20 @@ Creamos un directorio llamado paquete\_operaciones. En el interior debemos crear
 Crearemos un fichero llamado operacionesbasicas.py
 ```
 def sumar(a, b):
-return a + b
+    return a + b
 
 def restar(a, b):
-return a - b
+    return a - b
 ```
 Y otro llamado operacionestrigonometricas.py
 ```
 import math
 
 def seno(i):
-return math.sin(math.pi/i)
+   return math.sin(math.pi/i)
 
 def coseno(i):
-return math.cos(math.pi/i
+    return math.cos(math.pi/i
 ```
 Creamos un archivo Python en la raíz del proyecto.
 ```
