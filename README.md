@@ -9,16 +9,16 @@ Un _módulo_ es un archivo de Python cuyos objetos (funciones, clases, etc.) pue
 Creamos dentro de una carpeta un fichero llamado operaciones.py
 ```
 def sumar(a, b):
-return a + b
+     return a + b
 
 def restar(a, b):
-return a - b
+     return a - b
 
 def mult(a, b):
-return a \* b
+     return a \* b
 
 def div(a, b):
-return a / b
+     return a / b
 ```
 Otro llamado principal.py
 ```
