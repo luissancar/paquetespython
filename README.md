@@ -4,7 +4,7 @@
 
 ## Módulos.
 
-Un _módulo_ es un archivo de Python cuyos objetos (funciones, clases, excepciones, etc.) pueden ser accedidos desde otro archivo. Se trata simplemente de una forma de organizar grandes códigos.
+Un _módulo_ es un archivo de Python cuyos objetos (funciones, clases, etc.) pueden ser accedidos desde otro archivo. Se trata simplemente de una forma de organizar grandes códigos.
 
 Creamos dentro de una carpeta un fichero llamado operaciones.py
 ```
