@@ -83,6 +83,21 @@ Paquetes distribuibles.
 
 Un paquete distribuible se puede utilizar desde cualquier proyecto Python sin la necesidad de que el paquete esté en la carpeta del proyecto. En la raíz del proyecto creamos un fichero llamado setup.py.
 
+
+```
+from setuptools import setup
+
+setup(
+    name="nombredelpaquete",
+    version="1.0",
+    description="Paquete matemático",
+    author="tu nombre",
+    author_email="tu email",
+    url="tu url",
+    packages=["carpetadelpaquete"]
+)
+```
+
 Desde consola nos tenemos que posicionar en el directorio del proyecto, y tecleamos:
 ```
 python setup.py sdist
