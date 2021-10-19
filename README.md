@@ -100,7 +100,7 @@ setup(
 
 Desde consola nos tenemos que posicionar en el directorio del proyecto, y tecleamos:
 ```
-python setup.py sdist
+python3 setup.py sdist
 ```
 Se habrá creado una nueva carpeta llamada dist, y en ella encontraremos un fichero comprimido. Este fichero es nuestro distribuible y ahora podríamos compartirlo con todo el mundo para que puedan instalar nuestro paquete.
 
