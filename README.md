@@ -43,7 +43,7 @@ print(sumar(4,5))
 ```
 Paquetes.
 
-Los paquetes pueden contener módulos y otros paquetes. Son directorios. El único requisito es que contengan un archivo llamado \_\_init\_\_.py.
+Los paquetes pueden contener módulos y otros paquetes. Son directorios. El único requisito es que contengan un archivo llamado __init__.py.
 
 Creamos un directorio llamado paquete\_operaciones. En el interior debemos crear un archivo vacio llamado \_\_init\_\_.py.
 
@@ -67,13 +67,13 @@ def coseno(i):
 ```
 Creamos un archivo Python en la raíz del proyecto.
 ```
-from paquete\_operaciones import operacionestrigonometricas
+from paquete_operaciones import operacionestrigonometricas
 
 print(operacionestrigonometricas.seno(6))
 ```
 O
 ```
-from paquete\_operaciones.operacionestrigonometricas import seno
+from paquete_operaciones.operacionestrigonometricas import seno
 
 print(seno(6))
 ```
